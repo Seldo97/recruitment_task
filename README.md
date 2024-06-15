@@ -1,3 +1,5 @@
+# Candidate: Marcin Olek - marcinolek97@gmail.com
+
 # Intro
 Task is about syncing Jira tickets from one project to another within one Jira instance.
 Please create Jira instance (its free) where you can create 2 projects that are going to be synchronized.
