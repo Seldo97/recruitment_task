@@ -1,6 +1,6 @@
 package io.getint.recruitment_task;
 
-import java.io.IOException;
+import io.getint.recruitment_task.service.JiraApiService;
 
 public class JiraSynchronizer {
     /**
@@ -13,5 +13,7 @@ public class JiraSynchronizer {
      * Bonus points for syncing comments.
      */
     public void moveTasksToOtherProject() throws Exception {
+        JiraApiService jiraApiService = new JiraApiService();
+        jiraApiService.fetchIssuesByProjectId("LBN");
     }
 }
