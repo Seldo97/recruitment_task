@@ -14,6 +14,6 @@ public class JiraSynchronizer {
      */
     public void moveTasksToOtherProject() throws Exception {
         JiraApiService jiraApiService = new JiraApiService();
-        jiraApiService.fetchIssuesByProjectId("LBN");
+        jiraApiService.moveIssuesToOtherProject("BRN", "LBN");
     }
 }
