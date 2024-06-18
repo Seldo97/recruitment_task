@@ -1,5 +1,11 @@
 # Candidate: Marcin Olek - marcinolek97@gmail.com
-
+Please add config to `jira-api-config.yml` in `resources`
+````
+server: https://xxx.atlassian.net
+apiUri: /rest/api/2/
+apiKey: xxx
+user: xxx@gmail.com
+````
 # Intro
 Task is about syncing Jira tickets from one project to another within one Jira instance.
 Please create Jira instance (its free) where you can create 2 projects that are going to be synchronized.
