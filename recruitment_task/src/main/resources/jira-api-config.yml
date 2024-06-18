@@ -1,0 +1,4 @@
+server: https://xxx.atlassian.net
+apiUri: /rest/api/2/
+apiKey: xxx
+user: xxx@gmail.com
